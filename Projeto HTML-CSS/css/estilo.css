@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    background: black;
+    height: 200px;
+    justify-content: center;
+    align-items: start;
+    border-bottom: 3px solid gray;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.logo {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    display: flex;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.menu a {
+    flex: 25%;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    margin-bottom: 0;
+}
+
+.menu a:hover {
+    background: gray;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    margin: 5% 5% 5% 5%;
+    height: auto;
+    width: auto;
+    background: white;
+    border: 10px double black;
+}
+
+.header1bg {
+    background: gray;
+    margin: 0;
+    padding: 1%;
+}
+
+.header h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: yellow;
+    background: black;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.header img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 5px outset black;
+}
+
+.header p {
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-indent: 100px
+}
+
+#destaque {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.section {
+    margin: 5% 3% 5% 3%;
+    text-align: center;
+}
+
+.section h2 {
+    background: black;
+    color: yellow;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    padding: 0.5%;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 1%;
+}
+
+.servicos {
+    display: flex;
+}
+
+.card {
+    margin: 1%;
+}
+
+.cardCTD {
+    border: 1px solid gray;
+    background-color: darkgray;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardCTD:hover {
+    background-color: gray;
+    border-color: darkgray;
+}
+
+.cardCTD img {
+    border: 5px outset black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cardCTD img:hover {
+    height: 315px;
+    width: 315;
+}
+
+.cardCTD p {
+    font-size: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 1.5;
+}
+
+.footer {
+    height: auto;
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding: 0.1%;
+}
+
+.txt_footer {
+    margin-left: 45%;
+    margin-right: 45%;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    padding: 0.1%;
+
+}
+
+.links {
+    height: auto;
+    margin: 0% 5% 1% 5%;
+    display: flex;
+}
+
+.card_link {
+    height: auto;
+    flex: 30%;
+    margin: 1%;
+}
+
+.card_link a {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    width: 0%;
+    margin-left: 47%;
+    margin-right: 47%;
+}
